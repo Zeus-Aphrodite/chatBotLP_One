@@ -944,9 +944,9 @@
 							window.location.href = "./thanks.htm";
 
 						}, function (error) {
-							console.log('失敗...', error);
-							console.log(error);
-							alert('Fメールの送信に失敗しました。しばらくしてからもう一度お試しください。');
+							// console.log('失敗...', error);
+							// console.log(error);
+							// alert('Fメールの送信に失敗しました。しばらくしてからもう一度お試しください。');
 						});
 					const templateParams2 = {
 						recipient_email: "brilliantstar0202@gmail.com",
@@ -961,8 +961,8 @@
 							console.log('Second email sent!', response.status, response.text);
 							window.location.href = "./thanks.htm";
 						}, function (error) {
-							console.log('Failed to send second email.', error);
-							alert('メールの送信に失敗しました。しばらくしてからもう一度お試しください。');
+							// console.log('Failed to send second email.', error);
+							// alert('メールの送信に失敗しました。しばらくしてからもう一度お試しください。');
 						});
 				} else {
 					showElement();
